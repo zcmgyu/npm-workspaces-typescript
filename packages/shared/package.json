@@ -1,0 +1,14 @@
+{
+  "name": "shared",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "module": "dist/index.js",
+  "sideEffects": false,
+  "files": [
+    "dist/"
+  ],
+  "publishConfig": {
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts"
+  }
+}

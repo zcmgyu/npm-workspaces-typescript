@@ -1,0 +1,15 @@
+{
+  "extends": "./../../tsconfig.base.module.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    /* Specify an output folder for all emitted files. */
+    "rootDir": "src"
+  },
+  "include": [
+    "src/**/*",
+    "scripts/**/*"
+  ],
+  "references": [{
+    "path": "../shared"
+  }]
+}

@@ -1,0 +1,20 @@
+{
+  "exclude": [
+    "packages/**/dist/**"
+  ],
+  "include": [],
+  "extends": "./tsconfig.base.module.json",
+  "references": [{
+      "path": "packages/main"
+    },
+    {
+      "path": "packages/shared"
+    }
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "strict": true
+  }
+}
